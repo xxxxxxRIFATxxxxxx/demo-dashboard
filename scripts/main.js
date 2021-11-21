@@ -12,6 +12,10 @@ document.querySelector('#toggleDarkModeSwitch').addEventListener("click", () => 
             item.style.color = "black";
         });
 
+        document.querySelectorAll(".white-bg").forEach(item => {
+            item.style.backgroundColor = "white";
+        });
+
         document.querySelectorAll(".white-btn-dropdown").forEach(item => {
             item.className = "white-btn-dropdown btn border text-dark dropdown-toggle w-100"
         });
@@ -28,6 +32,10 @@ document.querySelector('#toggleDarkModeSwitch').addEventListener("click", () => 
 
         document.querySelectorAll(".white-mode").forEach(item => {
             item.style.color = "white";
+        });
+
+        document.querySelectorAll(".white-bg").forEach(item => {
+            item.style.backgroundColor = "#161365";
         });
 
         document.querySelectorAll(".white-btn-dropdown").forEach(item => {
